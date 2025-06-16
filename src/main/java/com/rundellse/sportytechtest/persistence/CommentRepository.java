@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Repository
 public class CommentRepository {
 
-    private ConcurrentHashMap<UUID, List<Comment>> ticketUUIDCommentsMap;
+    private final ConcurrentHashMap<UUID, List<Comment>> ticketUUIDCommentsMap;
 
     @Autowired
     public CommentRepository() {

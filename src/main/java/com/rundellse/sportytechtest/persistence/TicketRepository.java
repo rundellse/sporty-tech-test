@@ -3,7 +3,6 @@ package com.rundellse.sportytechtest.persistence;
 import com.rundellse.sportytechtest.model.Ticket;
 import com.rundellse.sportytechtest.model.TicketStatus;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -3,7 +3,6 @@ package com.rundellse.sportytechtest.service;
 import com.rundellse.sportytechtest.model.Comment;
 import com.rundellse.sportytechtest.model.Ticket;
 import com.rundellse.sportytechtest.model.TicketStatus;
-import com.rundellse.sportytechtest.model.Visibility;
 import com.rundellse.sportytechtest.persistence.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
