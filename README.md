@@ -6,6 +6,7 @@ Setup and Test:
 Requirements:
  - Docker CLI  
  - OpenJDK 21 (or later)
+ - Git
 
 (These steps tested in Ubuntu, other OS may need slight changes)  
 1. Clone the repo into your local environment:
