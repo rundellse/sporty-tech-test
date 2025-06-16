@@ -79,7 +79,7 @@ Design Assumptions / Followup:
  - See TODO in TicketService: only public comments should be returned to users but we do not currently have authentication on request source.
 
 ---
-AI Usage:  
+AI Usage - All Github Copilot (GPT 4.1):  
  - Creating templates for the defined REST APIs, manually updated into final state with some iteration as the requirements were probed.
  - Creating templates for test cases, then expanded/duplicated and modified to expand coverage.
  - Writing the Dockerfile, few changes needed.
