@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rundellse</groupId>
-	<artifactId>sportytechtest</artifactId>
+	<artifactId>sporty-tech-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sportytechtest</name>
+	<name>sporty-tech-test</name>
 	<description>Technical test project for Pleased/Sporty Group - Ticketing system</description>
 	<url/>
 	<licenses>
@@ -40,6 +40,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.hamcrest</groupId>-->
+<!--			<artifactId>hamcrest</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
