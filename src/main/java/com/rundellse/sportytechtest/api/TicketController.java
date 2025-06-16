@@ -55,7 +55,7 @@ public class TicketController {
             @RequestParam(required = false) String userId,
             @RequestParam(required = false) String assigneeId
     ) {
-        TicketStatus ticketStatus = status == null ? null : TicketStatus.valueOf(status);
+        TicketStatus ticketStatus = status == null ? null : TicketStatus.valueOf(status.toUpperCase());
 
         List<TicketDetailsDTO> allTickets = new ArrayList<>();
         for (Ticket ticket : ticketRepository.getTicketsFiltered(ticketStatus, userId, assigneeId)) {
@@ -97,7 +97,7 @@ public class TicketController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
 
-        Visibility visibility = Visibility.valueOf(addCommentDTO.visibility());
+        Visibility visibility = Visibility.valueOf(addCommentDTO.visibility().toUpperCase());
         if (addCommentDTO.authorId().startsWith("user-") && visibility != Visibility.PUBLIC) {
             // Log
             throw new ResponseStatusException(HttpStatus.FORBIDDEN);
